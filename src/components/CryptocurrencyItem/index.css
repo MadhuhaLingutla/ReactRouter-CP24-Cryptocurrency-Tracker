@@ -1,0 +1,48 @@
+/* Write your CSS code here */
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Roboto';
+}
+
+.currencyitem-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.title-container {
+  display: flex;
+  align-items: center;
+}
+.currency-logo {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+.currency-name {
+  color: white;
+  font-size: 15px;
+}
+.value-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 20%;
+}
+
+.usd-value {
+  color: white;
+  font-size: 15px;
+  margin-right: 40px;
+  width: 40%;
+}
+.euro-value {
+  color: white;
+  font-size: 15px;
+  width: 40%;
+}

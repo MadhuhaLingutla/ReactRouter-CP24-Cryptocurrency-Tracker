@@ -1,0 +1,11 @@
+/* Write your CSS here */
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Roboto';
+}
+
+.cryptocurrency-tracker-container {
+  background-color: black;
+  padding: 200px;
+}
